@@ -1,0 +1,63 @@
+﻿Press any key to stop
+|40d2d111-4f7df7289f0995b0.        Main.Start
+|40d2d111-4f7df7289f0995b0.1.        SimulateLoop.Start
+|40d2d111-4f7df7289f0995b0.1.1.        ReceiveEvent.Start    [ rid=1 ]
+|40d2d111-4f7df7289f0995b0.1.1.        ReceiveEvent.Take     [ rid=1 ] { { rid = 1 } }
+|40d2d111-4f7df7289f0995b0.1.1.1.        ProcessEvent.Start  [ eid=1, rid=1 ]
+|40d2d111-4f7df7289f0995b0.1.1.1.        ProcessEvent.Stop   [ eid=1, rid=1 ]
+|40d2d111-4f7df7289f0995b0.1.1.        ReceiveEvent.Stop     [ rid=1 ]
+|40d2d111-4f7df7289f0995b0.1.1.1.1.         InternalProcess.Start  [ eid=1, eid=1, rid=1 ]
+|40d2d111-4f7df7289f0995b0.1.1.1.1.         InternalProcess.Work  [ eid=1, eid=1, rid=1 ] { { result = 2 } }
+|40d2d111-4f7df7289f0995b0.1.1.1.1.         InternalProcess.Stop  [ eid=1, eid=1, rid=1 ]
+|40d2d111-4f7df7289f0995b0.1.2.        ReceiveEvent.Start    [ rid=2 ]
+|40d2d111-4f7df7289f0995b0.1.2.        ReceiveEvent.Drop     [ rid=2 ] { { rid = 2 } }
+|40d2d111-4f7df7289f0995b0.1.2.        ReceiveEvent.Stop     [ rid=2 ]
+|40d2d111-4f7df7289f0995b0.1.3.        ReceiveEvent.Start    [ rid=3 ]
+|40d2d111-4f7df7289f0995b0.1.3.        ReceiveEvent.Drop     [ rid=3 ] { { rid = 3 } }
+|40d2d111-4f7df7289f0995b0.1.3.        ReceiveEvent.Stop     [ rid=3 ]
+|40d2d111-4f7df7289f0995b0.1.4.        ReceiveEvent.Start    [ rid=4 ]
+|40d2d111-4f7df7289f0995b0.1.4.        ReceiveEvent.Drop     [ rid=4 ] { { rid = 4 } }
+|40d2d111-4f7df7289f0995b0.1.4.        ReceiveEvent.Stop     [ rid=4 ]
+|40d2d111-4f7df7289f0995b0.1.5.        ReceiveEvent.Start    [ rid=5 ]
+|40d2d111-4f7df7289f0995b0.1.5.        ReceiveEvent.Drop     [ rid=5 ] { { rid = 5 } }
+|40d2d111-4f7df7289f0995b0.1.5.        ReceiveEvent.Stop     [ rid=5 ]
+|40d2d111-4f7df7289f0995b0.1.6.        ReceiveEvent.Start    [ rid=6 ]
+|40d2d111-4f7df7289f0995b0.1.6.        ReceiveEvent.Drop     [ rid=6 ] { { rid = 6 } }
+|40d2d111-4f7df7289f0995b0.1.6.        ReceiveEvent.Stop     [ rid=6 ]
+|40d2d111-4f7df7289f0995b0.1.7.        ReceiveEvent.Start    [ rid=7 ]
+|40d2d111-4f7df7289f0995b0.1.7.        ReceiveEvent.Drop     [ rid=7 ] { { rid = 7 } }
+|40d2d111-4f7df7289f0995b0.1.7.        ReceiveEvent.Stop     [ rid=7 ]
+|40d2d111-4f7df7289f0995b0.1.8.        ReceiveEvent.Start    [ rid=8 ]
+|40d2d111-4f7df7289f0995b0.1.8.        ReceiveEvent.Take     [ rid=8 ] { { rid = 8 } }
+|40d2d111-4f7df7289f0995b0.1.8.1.        ProcessEvent.Start  [ eid=2, rid=8 ]
+|40d2d111-4f7df7289f0995b0.1.8.1.        ProcessEvent.Stop   [ eid=2, rid=8 ]
+|40d2d111-4f7df7289f0995b0.1.8.        ReceiveEvent.Stop     [ rid=8 ]
+|40d2d111-4f7df7289f0995b0.1.8.1.1.         InternalProcess.Start  [ eid=2, eid=2, rid=8 ]
+|40d2d111-4f7df7289f0995b0.1.8.1.1.         InternalProcess.Work  [ eid=2, eid=2, rid=8 ] { { result = 4 } }
+|40d2d111-4f7df7289f0995b0.1.8.1.1.         InternalProcess.Stop  [ eid=2, eid=2, rid=8 ]
+|40d2d111-4f7df7289f0995b0.1.9.        ReceiveEvent.Start    [ rid=9 ]
+|40d2d111-4f7df7289f0995b0.1.9.        ReceiveEvent.Take     [ rid=9 ] { { rid = 9 } }
+|40d2d111-4f7df7289f0995b0.1.9.1.        ProcessEvent.Start  [ eid=3, rid=9 ]
+|40d2d111-4f7df7289f0995b0.1.9.1.        ProcessEvent.Stop   [ eid=3, rid=9 ]
+|40d2d111-4f7df7289f0995b0.1.9.        ReceiveEvent.Stop     [ rid=9 ]
+|40d2d111-4f7df7289f0995b0.1.9.1.1.         InternalProcess.Start  [ eid=3, eid=3, rid=9 ]
+|40d2d111-4f7df7289f0995b0.1.9.1.1.         InternalProcess.Work  [ eid=3, eid=3, rid=9 ] { { result = 6 } }
+|40d2d111-4f7df7289f0995b0.1.9.1.1.         InternalProcess.Stop  [ eid=3, eid=3, rid=9 ]
+|40d2d111-4f7df7289f0995b0.1.10.       ReceiveEvent.Start    [ rid=10 ]
+|40d2d111-4f7df7289f0995b0.1.10.       ReceiveEvent.Drop     [ rid=10 ] { { rid = 10 } }
+|40d2d111-4f7df7289f0995b0.1.10.       ReceiveEvent.Stop     [ rid=10 ]
+|40d2d111-4f7df7289f0995b0.1.11.       ReceiveEvent.Start    [ rid=11 ]
+|40d2d111-4f7df7289f0995b0.1.11.       ReceiveEvent.Take     [ rid=11 ] { { rid = 11 } }
+|40d2d111-4f7df7289f0995b0.1.11.1.       ProcessEvent.Start  [ eid=4, rid=11 ]
+|40d2d111-4f7df7289f0995b0.1.11.1.       ProcessEvent.Stop   [ eid=4, rid=11 ]
+|40d2d111-4f7df7289f0995b0.1.11.       ReceiveEvent.Stop     [ rid=11 ]
+|40d2d111-4f7df7289f0995b0.1.11.1.1.         InternalProcess.Start  [ eid=4, eid=4, rid=11 ]
+|40d2d111-4f7df7289f0995b0.1.11.1.1.         InternalProcess.Work  [ eid=4, eid=4, rid=11 ] { { result = 8 } }
+|40d2d111-4f7df7289f0995b0.1.11.1.1.         InternalProcess.Stop  [ eid=4, eid=4, rid=11 ]
+|40d2d111-4f7df7289f0995b0.1.12.       ReceiveEvent.Start    [ rid=12 ]
+|40d2d111-4f7df7289f0995b0.1.12.       ReceiveEvent.Drop     [ rid=12 ] { { rid = 12 } }
+|40d2d111-4f7df7289f0995b0.1.12.       ReceiveEvent.Stop     [ rid=12 ]
+|40d2d111-4f7df7289f0995b0.1.13.       ReceiveEvent.Start    [ rid=13 ]
+|40d2d111-4f7df7289f0995b0.1.13.       ReceiveEvent.Drop     [ rid=13 ] { { rid = 13 } }
+|40d2d111-4f7df7289f0995b0.1.13.       ReceiveEvent.Stop     [ rid=13 ]
+|40d2d111-4f7df7289f0995b0.        Main.Stop

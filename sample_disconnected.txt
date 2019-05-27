@@ -1,0 +1,67 @@
+﻿Press any key to stop
+|bb588b1a-43bb65abf369eeec.        Main.Start
+|bb588b1a-43bb65abf369eeec.1.        SimulateLoop.Start
+|bb588b1a-43bb65abf369eeec.1.1.        ReceiveEvent.Start    [ rid=1 ]
+|bb588b1a-43bb65abf369eeec.1.1.        ReceiveEvent.Take     [ rid=1 ] { { rid = 1 } }
+|bb588b1a-43bb65abf369eeec.1.1.1.        ProcessEvent.Start  [ eid=1, rid=1 ]
+|bb588b1a-43bb65abf369eeec.1.1.1.        ProcessEvent.Stop   [ eid=1, rid=1 ]
+|bb588b1a-43bb65abf369eeec.1.1.        ReceiveEvent.Stop     [ rid=1 ]
+|bb588b1b-43bb65abf369eeec.        InternalProcess.Start     [ eid=1 ]
+|bb588b1b-43bb65abf369eeec.        InternalProcess.Work      [ eid=1 ] { { result = 2 } }
+|bb588b1b-43bb65abf369eeec.        InternalProcess.Stop      [ eid=1 ]
+|bb588b1a-43bb65abf369eeec.1.2.        ReceiveEvent.Start    [ rid=2 ]
+|bb588b1a-43bb65abf369eeec.1.2.        ReceiveEvent.Take     [ rid=2 ] { { rid = 2 } }
+|bb588b1a-43bb65abf369eeec.1.2.1.        ProcessEvent.Start  [ eid=2, rid=2 ]
+|bb588b1a-43bb65abf369eeec.1.2.1.        ProcessEvent.Stop   [ eid=2, rid=2 ]
+|bb588b1a-43bb65abf369eeec.1.2.        ReceiveEvent.Stop     [ rid=2 ]
+|bb588b1c-43bb65abf369eeec.        InternalProcess.Start     [ eid=2 ]
+|bb588b1c-43bb65abf369eeec.        InternalProcess.Work      [ eid=2 ] { { result = 4 } }
+|bb588b1c-43bb65abf369eeec.        InternalProcess.Stop      [ eid=2 ]
+|bb588b1a-43bb65abf369eeec.1.3.        ReceiveEvent.Start    [ rid=3 ]
+|bb588b1a-43bb65abf369eeec.1.3.        ReceiveEvent.Take     [ rid=3 ] { { rid = 3 } }
+|bb588b1a-43bb65abf369eeec.1.3.1.        ProcessEvent.Start  [ eid=3, rid=3 ]
+|bb588b1a-43bb65abf369eeec.1.3.1.        ProcessEvent.Stop   [ eid=3, rid=3 ]
+|bb588b1a-43bb65abf369eeec.1.3.        ReceiveEvent.Stop     [ rid=3 ]
+|bb588b1d-43bb65abf369eeec.        InternalProcess.Start     [ eid=3 ]
+|bb588b1d-43bb65abf369eeec.        InternalProcess.Work      [ eid=3 ] { { result = 6 } }
+|bb588b1d-43bb65abf369eeec.        InternalProcess.Stop      [ eid=3 ]
+|bb588b1a-43bb65abf369eeec.1.4.        ReceiveEvent.Start    [ rid=4 ]
+|bb588b1a-43bb65abf369eeec.1.4.        ReceiveEvent.Drop     [ rid=4 ] { { rid = 4 } }
+|bb588b1a-43bb65abf369eeec.1.4.        ReceiveEvent.Stop     [ rid=4 ]
+|bb588b1a-43bb65abf369eeec.1.5.        ReceiveEvent.Start    [ rid=5 ]
+|bb588b1a-43bb65abf369eeec.1.5.        ReceiveEvent.Take     [ rid=5 ] { { rid = 5 } }
+|bb588b1a-43bb65abf369eeec.1.5.1.        ProcessEvent.Start  [ eid=4, rid=5 ]
+|bb588b1a-43bb65abf369eeec.1.5.1.        ProcessEvent.Stop   [ eid=4, rid=5 ]
+|bb588b1a-43bb65abf369eeec.1.5.        ReceiveEvent.Stop     [ rid=5 ]
+|bb588b1e-43bb65abf369eeec.        InternalProcess.Start     [ eid=4 ]
+|bb588b1e-43bb65abf369eeec.        InternalProcess.Work      [ eid=4 ] { { result = 8 } }
+|bb588b1e-43bb65abf369eeec.        InternalProcess.Stop      [ eid=4 ]
+|bb588b1a-43bb65abf369eeec.1.6.        ReceiveEvent.Start    [ rid=6 ]
+|bb588b1a-43bb65abf369eeec.1.6.        ReceiveEvent.Drop     [ rid=6 ] { { rid = 6 } }
+|bb588b1a-43bb65abf369eeec.1.6.        ReceiveEvent.Stop     [ rid=6 ]
+|bb588b1a-43bb65abf369eeec.1.7.        ReceiveEvent.Start    [ rid=7 ]
+|bb588b1a-43bb65abf369eeec.1.7.        ReceiveEvent.Drop     [ rid=7 ] { { rid = 7 } }
+|bb588b1a-43bb65abf369eeec.1.7.        ReceiveEvent.Stop     [ rid=7 ]
+|bb588b1a-43bb65abf369eeec.1.8.        ReceiveEvent.Start    [ rid=8 ]
+|bb588b1a-43bb65abf369eeec.1.8.        ReceiveEvent.Take     [ rid=8 ] { { rid = 8 } }
+|bb588b1a-43bb65abf369eeec.1.8.1.        ProcessEvent.Start  [ eid=5, rid=8 ]
+|bb588b1a-43bb65abf369eeec.1.8.1.        ProcessEvent.Stop   [ eid=5, rid=8 ]
+|bb588b1a-43bb65abf369eeec.1.8.        ReceiveEvent.Stop     [ rid=8 ]
+|bb588b1f-43bb65abf369eeec.        InternalProcess.Start     [ eid=5 ]
+|bb588b1f-43bb65abf369eeec.        InternalProcess.Work      [ eid=5 ] { { result = 10 } }
+|bb588b1f-43bb65abf369eeec.        InternalProcess.Stop      [ eid=5 ]
+|bb588b1a-43bb65abf369eeec.1.9.        ReceiveEvent.Start    [ rid=9 ]
+|bb588b1a-43bb65abf369eeec.1.9.        ReceiveEvent.Drop     [ rid=9 ] { { rid = 9 } }
+|bb588b1a-43bb65abf369eeec.1.9.        ReceiveEvent.Stop     [ rid=9 ]
+|bb588b1a-43bb65abf369eeec.1.10.       ReceiveEvent.Start    [ rid=10 ]
+|bb588b1a-43bb65abf369eeec.1.10.       ReceiveEvent.Take     [ rid=10 ] { { rid = 10 } }
+|bb588b1a-43bb65abf369eeec.1.10.1.       ProcessEvent.Start  [ eid=6, rid=10 ]
+|bb588b1a-43bb65abf369eeec.1.10.1.       ProcessEvent.Stop   [ eid=6, rid=10 ]
+|bb588b1a-43bb65abf369eeec.1.10.       ReceiveEvent.Stop     [ rid=10 ]
+|bb588b20-43bb65abf369eeec.        InternalProcess.Start     [ eid=6 ]
+|bb588b20-43bb65abf369eeec.        InternalProcess.Work      [ eid=6 ] { { result = 12 } }
+|bb588b20-43bb65abf369eeec.        InternalProcess.Stop      [ eid=6 ]
+|bb588b1a-43bb65abf369eeec.1.11.       ReceiveEvent.Start    [ rid=11 ]
+|bb588b1a-43bb65abf369eeec.1.11.       ReceiveEvent.Drop     [ rid=11 ] { { rid = 11 } }
+|bb588b1a-43bb65abf369eeec.1.11.       ReceiveEvent.Stop     [ rid=11 ]
+|bb588b1a-43bb65abf369eeec.        Main.Stop

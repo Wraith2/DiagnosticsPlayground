@@ -85,7 +85,7 @@ namespace DiagnosticsPlayground
                 // suppressing the execution context prevents the async local for the activity
                 // from flowing from the current thread/task to the new thread/task but it seems
                 // a bit overkill because it'll stop all over async locals as well, like impersonation
-                //using (ExecutionContext.SuppressFlow())
+                using (ExecutionContext.SuppressFlow())
                 {
                     _ = Task.Factory.StartNew(
                         function: InternalProcess,
